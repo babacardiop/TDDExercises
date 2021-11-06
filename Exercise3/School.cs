@@ -10,9 +10,9 @@ namespace Exercise3
 
 		public List<Program> Programs { get; private set; }
 
-		public List<Course> Classes { get; set; }
+		public List<Course> Courses { get; set; }
 		public List<Teacher> Teachers { get; set; }
 
-		public List<Student> Student { get; set; }
+		public List<Student> Students { get; set; }
 	}
 }

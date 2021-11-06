@@ -6,9 +6,18 @@ using System.Threading.Tasks;
 
 namespace Exercise3
 {
+	public enum CoursePeriod
+	{
+		Spring = 1,
+		Summer= 2,
+		Autumn = 3,
+		Winter = 4
+	}
 	public class CoursePromotion
 	{
 		public int Id { get; set; }
+
+		public CoursePeriod Period { get; set; }
 		public DateTime StartDate { get; set; }
 		public DateTime EndDate { get; set; }
 

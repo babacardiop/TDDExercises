@@ -24,5 +24,7 @@ namespace Exercise3
 		public List<Course> Courses { get; set; }
 
 		public List<ProgramPromotion> Promotions { get; set; }
+
+		public School School { get; set; }
 	}
 }
