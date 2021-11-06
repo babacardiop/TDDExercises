@@ -8,7 +8,7 @@ namespace Exercise3
 		public int Id { get; set; }
 		public string Name { get; set; }
 
-		public List<Program> Programs { get; private set; }
+		public List<Programme> Programs { get; private set; }
 
 		public List<Course> Courses { get; set; }
 		public List<Teacher> Teachers { get; set; }

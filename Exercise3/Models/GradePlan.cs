@@ -7,17 +7,12 @@ namespace Exercise3
 	{
 		public int Id { get; set; }
 		public CoursePromotion CoursePromotion { get; set; }
-
 		public int Order { get; set; }
-
 		public double Ponderation { get; set; }
-
 		public string Name { get; set; }
-
+		public string Description { get; set; }
 		public DateTime Date { get; set; }
-
 		public int Attended { get; set; }
-
 		public List<Grade> Grades { get; set; }
 	}
 }

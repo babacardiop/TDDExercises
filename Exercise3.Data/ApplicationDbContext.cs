@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Exercise3.Db
+namespace Exercise3.Data
 {
     public class ApplicationDbContext : DbContext
     {
         public DbSet<School> Schools { get; set; }
-        public DbSet<Program> Programs { get; set; }
+        public DbSet<Programme> Programs { get; set; }
         public DbSet<Course> Courses { get; set; }
         public DbSet<ProgramPromotion> ProgramPromotions { get; set; }
         public DbSet<CoursePromotion> CoursePromotions { get; set; }
@@ -26,6 +26,17 @@ namespace Exercise3.Db
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server=DESKTOP-7BLVKRH;Database=Db");
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            //modelBuilder.Entity<Person>()
+            //    .HasOne(p => p.Student)
+            //    .WithOne(s => s.Person);
+
+            //modelBuilder.Entity<Person>()
+            //    .HasOne(p => p.Teacher)
+            //    .WithOne(s => s.Person);
         }
     }
 }

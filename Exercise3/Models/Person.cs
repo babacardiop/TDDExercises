@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Exercise3
 {
@@ -16,8 +19,8 @@ namespace Exercise3
 
 		public string Adress { get; set; }
 
-		public List<Employee> EmployeeHistory { get; set; }
+		public Teacher Teacher { get; set; }
 
-		public Student StudentHistory { get; set; }
+		public Student Student { get; set; }
 	}
 }

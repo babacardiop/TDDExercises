@@ -9,7 +9,7 @@ namespace Exercise3
 	public class ProgramPromotion
 	{
 		public int Id { get; set; }
-		public Program Program { get; set; }
+		public Programme Program { get; set; }
 
 		public DateTime StartDate { get; set; }
 		public DateTime EndDate { get; set; }

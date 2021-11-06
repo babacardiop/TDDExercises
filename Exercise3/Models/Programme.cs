@@ -14,7 +14,7 @@ namespace Exercise3
 		Master=4,
 		PhD=5
 	}
-	public class Program
+	public class Programme
 	{
 		public int Id { get; set; }
 		public string Name { get; set; }
