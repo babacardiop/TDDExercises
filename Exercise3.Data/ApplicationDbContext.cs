@@ -30,6 +30,7 @@ namespace Exercise3.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Seed();
         }
     }
 }

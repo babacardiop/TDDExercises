@@ -21,6 +21,7 @@ namespace Exercise3
 		public string Description { get; set; }
 		public List<Course> Courses { get; set; }
 		public List<ProgramPromotion> Promotions { get; set; }
+		public int SchoolId { get; set; }
 		public School School { get; set; }
 	}
 }
