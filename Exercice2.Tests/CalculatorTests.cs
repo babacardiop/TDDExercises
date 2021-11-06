@@ -17,5 +17,27 @@ namespace Exercice2.Tests
 			// Assert
 			Assert.Equal(3, result);
 		}
+
+
+		// Exercise 2 TODO 1 : Substract
+
+		// Exercise 2 TODO 2 : Multiply
+
+		// Exercise 2 TODO 3 : Divide
+
+		// Exercise 2 TODO 4 : Power without Math.Pow than refactor
+
+		// *****Exercise 3*****
+		/*
+		 * The business changed idea and they want the calculator to support also operations using 
+		 * 3 instead of 2 operands.
+		 * Adjust code and tests
+		 */
+
+		// *****Exercise 4*****
+		/*
+		 * The business changed idea and they want the calculator to support operations on decimals
+		 * instead of int. Adjust the code and the tests cases
+		 */
 	}
 }
