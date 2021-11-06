@@ -25,18 +25,11 @@ namespace Exercise3.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=DESKTOP-7BLVKRH;Database=Db");
+            optionsBuilder.UseSqlServer(@"Server=DESKTOP-7BLVKRH;Database=Db;Trusted_Connection=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //modelBuilder.Entity<Person>()
-            //    .HasOne(p => p.Student)
-            //    .WithOne(s => s.Person);
-
-            //modelBuilder.Entity<Person>()
-            //    .HasOne(p => p.Teacher)
-            //    .WithOne(s => s.Person);
         }
     }
 }
