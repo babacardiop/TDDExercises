@@ -1,5 +1,4 @@
-﻿
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using System;
 
 namespace Exercise3.Data
@@ -37,7 +36,7 @@ namespace Exercise3.Data
 					Id = 1,
 					FirstName = "Teacher",
 					LastName = "1",
-					Sex = "M",
+					Sex = "F",
 					Adress = "",
 					BirthDate = DateTime.Now
 				},
@@ -46,7 +45,7 @@ namespace Exercise3.Data
 					Id = 2,
 					FirstName = "Teacher",
 					LastName = "2",
-					Sex = "",
+					Sex = "M",
 					Adress = "",
 					BirthDate = DateTime.Now
 				}
