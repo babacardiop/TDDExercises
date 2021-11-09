@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Exercise3.Business
+namespace Exercise3.Repository
 {
 	public class TeacherRepository
 	{
