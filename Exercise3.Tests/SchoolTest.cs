@@ -19,6 +19,7 @@ namespace Exercise3.Tests
 			using (var dbContext = new ApplicationDbContext(ContextOptions))
 			{
 				// Seed initial data, when required
+
 			}
 		}
 
