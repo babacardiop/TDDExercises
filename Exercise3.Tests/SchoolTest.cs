@@ -1,5 +1,7 @@
-﻿using Exercise3.Data;
+﻿using Exercise3.Business;
+using Exercise3.Data;
 using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
 using Xunit;
 
 namespace Exercise3.Tests
@@ -24,15 +26,21 @@ namespace Exercise3.Tests
 		}
 
 		[Fact]
-		public void AddSchool()
+		public async Task AddSchool()
 		{
-
+			// Arrange
 			using var context = new ApplicationDbContext(ContextOptions);
 
-			// Arrange
-			// Assert
+			var cut = new SchoolController(context);
+			
+			var testSchool = new School() { Name = "Test School" };
 
-			// Arrange
+			// Act
+			await cut.AddSchool(testSchool);
+
+			// Assert
+			var school = await context.Schools.SingleOrDefaultAsync(s => s.Name == "Test School");
+			Assert.NotNull(school);
 		}
 
 	}

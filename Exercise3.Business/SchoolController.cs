@@ -10,11 +10,16 @@ namespace Exercise3.Business
 {
 	public class SchoolController
 	{
-		public TeacherRepository Repository { get; set; }
+		public SchoolRepository Repository { get; set; }
 
 		public SchoolController(ApplicationDbContext dbContext)
 		{
-			Repository = new TeacherRepository(dbContext);
+			Repository = new SchoolRepository(dbContext);
+		}
+
+		public async Task<School> AddSchool(School school)
+		{
+			return await Repository.AddSchool(school);
 		}
 	}
 }

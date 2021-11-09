@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Exercise3.Business\Exercise3.Business.csproj" />
     <ProjectReference Include="..\Exercise3.Data\Exercise3.Data.csproj" />
   </ItemGroup>
 
