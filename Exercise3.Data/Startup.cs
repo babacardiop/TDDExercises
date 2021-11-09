@@ -18,7 +18,7 @@ namespace Exercise3.Data
 		public void ConfigureServices(IServiceCollection services)
 		{
 			services.AddDbContext<ApplicationDbContext>(
-				db => db.UseSqlServer(@"Server=DESKTOP-7BLVKRH;Database=Db;Trusted_Connection=True;"));
+				db => db.UseSqlServer(@"Data Source=SQL5063.site4now.net;Initial Catalog=db_a5a844_tdd;User Id=db_a5a844_tdd_admin;Password=Test1234;"));
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

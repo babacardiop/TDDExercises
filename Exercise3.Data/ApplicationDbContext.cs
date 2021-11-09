@@ -25,7 +25,7 @@ namespace Exercise3.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=DESKTOP-7BLVKRH;Database=Db;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer(@"Data Source=SQL5063.site4now.net;Initial Catalog=db_a5a844_tdd;User Id=db_a5a844_tdd_admin;Password=Test1234;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

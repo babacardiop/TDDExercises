@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise2", "Exercice2\Exer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise2.Tests", "Exercice2.Tests\Exercise2.Tests.csproj", "{1B40EF37-1A4D-4A36-836E-5950F2F68866}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice1", "Exercice1\Exercice1.csproj", "{B67F69F9-7EF7-40B7-A301-807E16FF3021}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise1", "Exercice1\Exercise1.csproj", "{B67F69F9-7EF7-40B7-A301-807E16FF3021}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise3", "Exercise3\Exercise3.csproj", "{346EFA23-9D90-4352-8585-B5D8D14C9D92}"
 EndProject
